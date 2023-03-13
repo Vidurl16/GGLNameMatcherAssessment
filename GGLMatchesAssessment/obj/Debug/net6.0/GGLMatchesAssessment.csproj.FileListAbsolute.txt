@@ -1,0 +1,15 @@
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\bin\Debug\net6.0\GGLMatchesAssessment.exe
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\bin\Debug\net6.0\GGLMatchesAssessment.deps.json
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\bin\Debug\net6.0\GGLMatchesAssessment.runtimeconfig.json
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\bin\Debug\net6.0\GGLMatchesAssessment.dll
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\bin\Debug\net6.0\GGLMatchesAssessment.pdb
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\obj\Debug\net6.0\GGLMatchesAssessment.csproj.AssemblyReference.cache
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\obj\Debug\net6.0\GGLMatchesAssessment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\obj\Debug\net6.0\GGLMatchesAssessment.AssemblyInfoInputs.cache
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\obj\Debug\net6.0\GGLMatchesAssessment.AssemblyInfo.cs
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\obj\Debug\net6.0\GGLMatchesAssessment.csproj.CoreCompileInputs.cache
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\obj\Debug\net6.0\GGLMatchesAssessment.dll
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\obj\Debug\net6.0\refint\GGLMatchesAssessment.dll
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\obj\Debug\net6.0\GGLMatchesAssessment.pdb
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\obj\Debug\net6.0\GGLMatchesAssessment.genruntimeconfig.cache
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\obj\Debug\net6.0\ref\GGLMatchesAssessment.dll
