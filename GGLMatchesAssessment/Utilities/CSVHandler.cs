@@ -1,6 +1,8 @@
-﻿namespace GGLMatchesAssessment.Utilities;
+﻿using GGLMatchesAssessment.Interfaces;
 
-public class CSVHandler
+namespace GGLMatchesAssessment.Utilities;
+
+public class CSVHandler : ICSVHandler
 {
     public List<(string name, char gender)> ReadCSVFile(string filePath)
     {

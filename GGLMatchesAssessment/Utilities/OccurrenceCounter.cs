@@ -15,21 +15,18 @@ class OccurrenceCounter : IOccurrenceCounter
     {
         string result = "";
 
-        // Loop through each unique character in the input string
-        foreach (char c in input.Distinct())
+        foreach (char uniqueChar in input.Distinct())
         {
             int count = 0;
 
-            // Loop through the input string to count how many times the character occurs
-            foreach (char ch in input)
+            foreach (char inputIndex in input)
             {
-                if (ch.Equals(c))
+                if (inputIndex.Equals(uniqueChar))
                 {
                     count++;
                 }
             }
 
-            // Add the character count to the result string
             result += count.ToString();
         }
 

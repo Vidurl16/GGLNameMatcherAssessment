@@ -2,5 +2,5 @@
 
 public interface ICountReducer
 {
-    void Reduce(int count);
+    int GetReducedNumbers(string input);
 }
