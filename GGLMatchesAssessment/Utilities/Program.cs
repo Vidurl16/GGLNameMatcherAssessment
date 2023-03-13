@@ -17,4 +17,5 @@ public class Program
 
         File.WriteAllLines("output.txt", results);
     }
+
 }
