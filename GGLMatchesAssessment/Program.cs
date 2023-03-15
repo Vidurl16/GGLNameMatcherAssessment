@@ -1,6 +1,8 @@
-﻿using GGLMatchesAssessment.Interfaces;
+﻿using GGLMatchesAssessment.Constants;
+using GGLMatchesAssessment.Interfaces;
+using GGLMatchesAssessment.Utilities;
 
-namespace GGLMatchesAssessment.Utilities;
+namespace GGLMatchesAssessment;
 
 public class Program
 {
@@ -9,7 +11,7 @@ public class Program
         ICSVHandler handler = new CSVHandler();
         NameMatcher nameMatcher = new NameMatcher();
 
-        string csvPath = @"C:\\Users\\Vidur\\Downloads\\Input_Vidur Lutchminarain.csv";
+        string csvPath = PathConstants.csvPath;
 
         List<(string name, char gender)> names = handler.ReadCSVFile(csvPath);
 

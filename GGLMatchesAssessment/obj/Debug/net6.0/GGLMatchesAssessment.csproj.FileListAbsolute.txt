@@ -43,3 +43,5 @@ C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\bin\Debug\
 C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
 C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\obj\Debug\net6.0\GGLMatchesAssessment.csproj.CopyComplete
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\bin\Debug\net6.0\NameMatcherUtilities.dll
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\GGLMatchesAssessment\bin\Debug\net6.0\NameMatcherUtilities.pdb

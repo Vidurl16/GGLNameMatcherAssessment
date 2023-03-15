@@ -288,3 +288,126 @@
 2023/03/14 12:19:52 - @23` matches Billy yielded: Invalid input - Execution Time: 00:00:00.0000175
 2023/03/14 12:23:27 - Input string: Mo matches Santosh, Result: 79 - Execution Time: 00:00:00.0024643
 2023/03/14 12:23:34 - Input string: Jack matches Jill, Result: 60 - Execution Time: 00:00:00.0000636
+2023/03/14 15:40:22 - Input string: Jack matches Jill, Result: 60 - Execution Time: 00:00:00.0016904
+2023/03/14 15:40:33 - Input string: Jason matches Kimberly, Result: 20 - Execution Time: 00:00:00.0030568
+2023/03/14 15:40:33 - Input string: Jason matches Trini, Result: 71 - Execution Time: 00:00:00.0000644
+2023/03/14 15:40:33 - Input string: Jason matches Billy, Result: 71 - Execution Time: 00:00:00.0000171
+2023/03/14 15:40:33 - Input string: Billy matches Kimberly, Result: 20 - Execution Time: 00:00:00.0000133
+2023/03/14 15:40:33 - Input string: Billy matches Trini, Result: 71 - Execution Time: 00:00:00.0000101
+2023/03/14 15:40:33 - Input string: Billy matches Billy, Result: 62 - Execution Time: 00:00:00.0000120
+2023/03/14 15:40:33 - Input string: Tommy matches Kimberly, Result: 20 - Execution Time: 00:00:00.0000088
+2023/03/14 15:40:33 - Input string: Tommy matches Trini, Result: 62 - Execution Time: 00:00:00.0000073
+2023/03/14 15:40:33 - Input string: Tommy matches Billy, Result: 53 - Execution Time: 00:00:00.0000089
+2023/03/14 15:40:33 - Input string: Zack matches Kimberly, Result: 91 good match - Execution Time: 00:00:00.0000078
+2023/03/14 15:40:33 - Input string: Zack matches Trini, Result: 70 - Execution Time: 00:00:00.0000075
+2023/03/14 15:40:33 - Input string: Zack matches Billy, Result: 61 - Execution Time: 00:00:00.0000070
+2023/03/14 15:40:33 - @23` matches Kimberly yielded: Invalid input - Execution Time: 00:00:00.0000014
+2023/03/14 15:40:33 - @23` matches Trini yielded: Invalid input - Execution Time: 00:00:00.0000028
+2023/03/14 15:40:33 - @23` matches Billy yielded: Invalid input - Execution Time: 00:00:00.0000149
+2023/03/14 16:26:14 - Input string: Jack matches Jill, Result: 60 - Execution Time: 00:00:00.0026418
+2023/03/14 16:26:54 - Input string: Jason matches Kimberly, Result: 20 - Execution Time: 00:00:00.0022075
+2023/03/14 16:26:54 - Input string: Jason matches Trini, Result: 71 - Execution Time: 00:00:00.0000654
+2023/03/14 16:26:54 - Input string: Jason matches Billy, Result: 71 - Execution Time: 00:00:00.0000146
+2023/03/14 16:26:54 - Input string: Billy matches Kimberly, Result: 20 - Execution Time: 00:00:00.0000107
+2023/03/14 16:26:54 - Input string: Billy matches Trini, Result: 71 - Execution Time: 00:00:00.0000106
+2023/03/14 16:26:54 - Input string: Billy matches Billy, Result: 62 - Execution Time: 00:00:00.0000176
+2023/03/14 16:26:54 - Input string: Tommy matches Kimberly, Result: 20 - Execution Time: 00:00:00.0000088
+2023/03/14 16:26:54 - Input string: Tommy matches Trini, Result: 62 - Execution Time: 00:00:00.0000074
+2023/03/14 16:26:54 - Input string: Tommy matches Billy, Result: 53 - Execution Time: 00:00:00.0000073
+2023/03/14 16:26:54 - Input string: Zack matches Kimberly, Result: 91 good match - Execution Time: 00:00:00.0000086
+2023/03/14 16:26:54 - Input string: Zack matches Trini, Result: 70 - Execution Time: 00:00:00.0000082
+2023/03/14 16:26:54 - Input string: Zack matches Billy, Result: 61 - Execution Time: 00:00:00.0000078
+2023/03/14 16:26:54 - @23` matches Kimberly yielded: Invalid input - Execution Time: 00:00:00.0000021
+2023/03/14 16:26:54 - @23` matches Trini yielded: Invalid input - Execution Time: 00:00:00.0000122
+2023/03/14 16:26:54 - @23` matches Billy yielded: Invalid input - Execution Time: 00:00:00.0000127
+2023/03/14 16:31:17 - Input string: Vidur matches ss, Result: 50 - Execution Time: 00:00:00.0015297
+2023/03/14 16:31:21 - Vidur matches @@ yielded: Invalid input - Execution Time: 00:00:00.0000165
+2023/03/14 16:31:27 - @ matches @@ yielded: Invalid input - Execution Time: 00:00:00.0000022
+2023/03/14 19:44:02 - Input string: Jason matches Kimberly, Result: 20 - Execution Time: 00:00:00.0031934
+2023/03/14 19:44:02 - Input string: Jason matches Trini, Result: 71 - Execution Time: 00:00:00.0000534
+2023/03/14 19:44:02 - Input string: Jason matches Billy, Result: 71 - Execution Time: 00:00:00.0000108
+2023/03/14 19:44:02 - Input string: Billy matches Kimberly, Result: 20 - Execution Time: 00:00:00.0000079
+2023/03/14 19:44:02 - Input string: Billy matches Trini, Result: 71 - Execution Time: 00:00:00.0000136
+2023/03/14 19:44:02 - Input string: Billy matches Billy, Result: 62 - Execution Time: 00:00:00.0000111
+2023/03/14 19:44:02 - Input string: Tommy matches Kimberly, Result: 20 - Execution Time: 00:00:00.0000076
+2023/03/14 19:44:02 - Input string: Tommy matches Trini, Result: 62 - Execution Time: 00:00:00.0000066
+2023/03/14 19:44:02 - Input string: Tommy matches Billy, Result: 53 - Execution Time: 00:00:00.0000066
+2023/03/14 19:44:02 - Input string: Zack matches Kimberly, Result: 91 good match - Execution Time: 00:00:00.0000072
+2023/03/14 19:44:02 - Input string: Zack matches Trini, Result: 70 - Execution Time: 00:00:00.0000065
+2023/03/14 19:44:02 - Input string: Zack matches Billy, Result: 61 - Execution Time: 00:00:00.0000088
+2023/03/14 19:44:02 - @23` matches Kimberly yielded: Invalid input - Execution Time: 00:00:00.0000014
+2023/03/14 19:44:02 - @23` matches Trini yielded: Invalid input - Execution Time: 00:00:00.0000037
+2023/03/14 19:44:02 - @23` matches Billy yielded: Invalid input - Execution Time: 00:00:00.0000121
+2023/03/15 09:06:48 - Input string: Jason matches Kimberly, Result: 20 - Execution Time: 00:00:00.0138615
+2023/03/15 09:06:48 - Input string: Jason matches Trini, Result: 71 - Execution Time: 00:00:00.0001107
+2023/03/15 09:06:48 - Input string: Jason matches Billy, Result: 71 - Execution Time: 00:00:00.0000192
+2023/03/15 09:06:48 - Input string: Billy matches Kimberly, Result: 20 - Execution Time: 00:00:00.0000228
+2023/03/15 09:06:48 - Input string: Billy matches Trini, Result: 71 - Execution Time: 00:00:00.0000178
+2023/03/15 09:06:48 - Input string: Billy matches Billy, Result: 62 - Execution Time: 00:00:00.0000443
+2023/03/15 09:06:48 - Input string: Tommy matches Kimberly, Result: 20 - Execution Time: 00:00:00.0000236
+2023/03/15 09:06:48 - Input string: Tommy matches Trini, Result: 62 - Execution Time: 00:00:00.0000158
+2023/03/15 09:06:48 - Input string: Tommy matches Billy, Result: 53 - Execution Time: 00:00:00.0000143
+2023/03/15 09:06:48 - Input string: Zack matches Kimberly, Result: 91 good match - Execution Time: 00:00:00.0000176
+2023/03/15 09:06:48 - Input string: Zack matches Trini, Result: 70 - Execution Time: 00:00:00.0000213
+2023/03/15 09:06:48 - Input string: Zack matches Billy, Result: 61 - Execution Time: 00:00:00.0000153
+2023/03/15 09:06:49 - @23` matches Kimberly yielded: Invalid input - Execution Time: 00:00:00.0000031
+2023/03/15 09:06:49 - @23` matches Trini yielded: Invalid input - Execution Time: 00:00:00.0000058
+2023/03/15 09:06:49 - @23` matches Billy yielded: Invalid input - Execution Time: 00:00:00.0000406
+2023/03/15 09:26:04 - Input string: JackmatchesJill, Result: 60 - Execution Time: 00:00:00.0217351
+2023/03/15 09:57:57 - Input string: JackmatchesJill, Result: 60 - Execution Time: 00:00:00.0292419
+2023/03/15 10:12:09 - Input string: JackmatchesJill, Result: 60 - Execution Time: 00:00:00.0180636
+2023/03/15 10:17:42 - Input string: JackmatchesJill, Result: 60 - Execution Time: 00:00:00.0163732
+2023/03/15 10:25:38 - Input string: Jack matches Jill, Result: 60 - Execution Time: 00:00:00.0025692
+2023/03/15 10:40:35 - Input string: Jason matches Kimberly, Result: 20 - Execution Time: 00:00:00.0041785
+2023/03/15 10:40:35 - Input string: Jason matches Trini, Result: 71 - Execution Time: 00:00:00.0000624
+2023/03/15 10:40:35 - Input string: Jason matches Billy, Result: 71 - Execution Time: 00:00:00.0000135
+2023/03/15 10:40:35 - Input string: Billy matches Kimberly, Result: 20 - Execution Time: 00:00:00.0000112
+2023/03/15 10:40:35 - Input string: Billy matches Trini, Result: 71 - Execution Time: 00:00:00.0000135
+2023/03/15 10:40:35 - Input string: Billy matches Billy, Result: 62 - Execution Time: 00:00:00.0000161
+2023/03/15 10:40:35 - Input string: Tommy matches Kimberly, Result: 20 - Execution Time: 00:00:00.0000161
+2023/03/15 10:40:35 - Input string: Tommy matches Trini, Result: 62 - Execution Time: 00:00:00.0000176
+2023/03/15 10:40:35 - Input string: Tommy matches Billy, Result: 53 - Execution Time: 00:00:00.0000233
+2023/03/15 10:40:35 - Input string: Zack matches Kimberly, Result: 91 good match - Execution Time: 00:00:00.0000180
+2023/03/15 10:40:35 - Input string: Zack matches Trini, Result: 70 - Execution Time: 00:00:00.0000192
+2023/03/15 10:40:35 - Input string: Zack matches Billy, Result: 61 - Execution Time: 00:00:00.0000113
+2023/03/15 10:40:35 - @23` matches Kimberly yielded: Invalid input - Execution Time: 00:00:00.0000024
+2023/03/15 10:40:35 - @23` matches Trini yielded: Invalid input - Execution Time: 00:00:00.0000055
+2023/03/15 10:40:35 - @23` matches Billy yielded: Invalid input - Execution Time: 00:00:00.0000176
+2023/03/15 10:41:50 - Input string: JackmatchesJill, Result: 60 - Execution Time: 00:00:00.0120937
+2023/03/15 10:41:55 - @matchesJill yielded: Invalid input - Execution Time: 00:00:00.0000290
+2023/03/15 10:49:27 - Input string: homomatchessimpson, Result: 72 - Execution Time: 00:00:00.0174490
+2023/03/15 10:49:34 - Input string: homomatchessimpson, Result: 72 - Execution Time: 00:00:00.0008267
+2023/03/15 10:51:02 - Input string: gay matches boi, Result: 85 good match - Execution Time: 00:00:00.0020690
+2023/03/15 10:51:17 - Input string: Jason matches Kimberly, Result: 20 - Execution Time: 00:00:00.0037989
+2023/03/15 10:51:17 - Input string: Jason matches Trini, Result: 71 - Execution Time: 00:00:00.0001278
+2023/03/15 10:51:17 - Input string: Jason matches Billy, Result: 71 - Execution Time: 00:00:00.0000216
+2023/03/15 10:51:17 - Input string: Billy matches Kimberly, Result: 20 - Execution Time: 00:00:00.0000267
+2023/03/15 10:51:17 - Input string: Billy matches Trini, Result: 71 - Execution Time: 00:00:00.0000238
+2023/03/15 10:51:17 - Input string: Billy matches Billy, Result: 62 - Execution Time: 00:00:00.0000298
+2023/03/15 10:51:17 - Input string: Tommy matches Kimberly, Result: 20 - Execution Time: 00:00:00.0000239
+2023/03/15 10:51:17 - Input string: Tommy matches Trini, Result: 62 - Execution Time: 00:00:00.0000207
+2023/03/15 10:51:17 - Input string: Tommy matches Billy, Result: 53 - Execution Time: 00:00:00.0000208
+2023/03/15 10:51:17 - Input string: Zack matches Kimberly, Result: 91 good match - Execution Time: 00:00:00.0000239
+2023/03/15 10:51:17 - Input string: Zack matches Trini, Result: 70 - Execution Time: 00:00:00.0000314
+2023/03/15 10:51:17 - Input string: Zack matches Billy, Result: 61 - Execution Time: 00:00:00.0000424
+2023/03/15 10:51:17 - @23` matches Kimberly yielded: Invalid input - Execution Time: 00:00:00.0000107
+2023/03/15 10:51:17 - @23` matches Trini yielded: Invalid input - Execution Time: 00:00:00.0000057
+2023/03/15 10:51:17 - @23` matches Billy yielded: Invalid input - Execution Time: 00:00:00.0000180
+2023/03/15 11:01:52 - Input string: JackmatchesJill, Result: 60 - Execution Time: 00:00:00.0120542
+2023/03/15 13:04:47 - Input string: VidurmatchesLutchminarain, Result: 52 - Execution Time: 00:00:00.0119833
+2023/03/15 13:05:36 - Input string: JackmatchesJill, Result: 60 - Execution Time: 00:00:00.0120815
+2023/03/15 13:16:19 - Input string: Jason matches Kimberly, Result: 20 - Execution Time: 00:00:00.0028244
+2023/03/15 13:16:19 - Input string: Jason matches Trini, Result: 71 - Execution Time: 00:00:00.0000660
+2023/03/15 13:16:19 - Input string: Jason matches Billy, Result: 71 - Execution Time: 00:00:00.0000130
+2023/03/15 13:16:19 - Input string: Billy matches Kimberly, Result: 20 - Execution Time: 00:00:00.0000101
+2023/03/15 13:16:19 - Input string: Billy matches Trini, Result: 71 - Execution Time: 00:00:00.0000088
+2023/03/15 13:16:19 - Input string: Billy matches Billy, Result: 62 - Execution Time: 00:00:00.0000153
+2023/03/15 13:16:19 - Input string: Tommy matches Kimberly, Result: 20 - Execution Time: 00:00:00.0000113
+2023/03/15 13:16:19 - Input string: Tommy matches Trini, Result: 62 - Execution Time: 00:00:00.0000083
+2023/03/15 13:16:19 - Input string: Tommy matches Billy, Result: 53 - Execution Time: 00:00:00.0000077
+2023/03/15 13:16:19 - Input string: Zack matches Kimberly, Result: 91 good match - Execution Time: 00:00:00.0000211
+2023/03/15 13:16:19 - Input string: Zack matches Trini, Result: 70 - Execution Time: 00:00:00.0000141
+2023/03/15 13:16:19 - Input string: Zack matches Billy, Result: 61 - Execution Time: 00:00:00.0000126
+2023/03/15 13:16:19 - @23` matches Kimberly yielded: Invalid input - Execution Time: 00:00:00.0000020
+2023/03/15 13:16:19 - @23` matches Trini yielded: Invalid input - Execution Time: 00:00:00.0000048
+2023/03/15 13:16:19 - @23` matches Billy yielded: Invalid input - Execution Time: 00:00:00.0000114

@@ -1,0 +1,15 @@
+Jason matches Kimberly: 20
+Jason matches Trini: 71
+Jason matches Billy: 71
+Billy matches Kimberly: 20
+Billy matches Trini: 71
+Billy matches Billy: 62
+Tommy matches Kimberly: 20
+Tommy matches Trini: 62
+Tommy matches Billy: 53
+Zack matches Kimberly: 91 good match
+Zack matches Trini: 70
+Zack matches Billy: 61
+@23` matches Kimberly: @23` matches Kimberly yielded: Invalid input
+@23` matches Trini: @23` matches Trini yielded: Invalid input
+@23` matches Billy: @23` matches Billy yielded: Invalid input

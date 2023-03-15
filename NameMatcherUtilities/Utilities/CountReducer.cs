@@ -71,8 +71,18 @@ public class CountReducer : ICountReducer
 
         return Convert.ToInt32(output);
     }
+
+    private int ComputeReversedOutput(string firstHalf, string reversedSecondHalf)
+    {
+        string output = "";
+
+        for (int i = 0; i < firstHalf.Length; i++)
+        {
+            int sum = (int)Char.GetNumericValue(reversedSecondHalf[i]) + (int)Char.GetNumericValue(firstHalf[i]);
+
+            output += sum;
+        }
+
+        return Convert.ToInt32(output);
+    }
 }
-
-
-
-

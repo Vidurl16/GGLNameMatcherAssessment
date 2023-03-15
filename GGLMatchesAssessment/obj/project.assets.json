@@ -1210,6 +1210,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "NameMatcherUtilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/NameMatcherUtilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NameMatcherUtilities.dll": {}
+        }
       }
     }
   },
@@ -4050,15 +4060,22 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "NameMatcherUtilities/1.0.0": {
+      "type": "project",
+      "path": "../NameMatcherUtilities/NameMatcherUtilities.csproj",
+      "msbuildProject": "../NameMatcherUtilities/NameMatcherUtilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.AspNetCore.Mvc.Core >= 2.2.5"
+      "Microsoft.AspNetCore.Mvc.Core >= 2.2.5",
+      "NameMatcherUtilities >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vidur\\.nuget\\packages\\": {}
+    "C:\\Users\\Vidur\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4069,8 +4086,12 @@
       "packagesPath": "C:\\Users\\Vidur\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Vidur\\source\\repos\\GGLMatchesAssessment\\GGLMatchesAssessment\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Vidur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4078,12 +4099,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Vidur\\source\\repos\\GGLMatchesAssessment\\NameMatcherUtilities\\NameMatcherUtilities.csproj": {
+              "projectPath": "C:\\Users\\Vidur\\source\\repos\\GGLMatchesAssessment\\NameMatcherUtilities\\NameMatcherUtilities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

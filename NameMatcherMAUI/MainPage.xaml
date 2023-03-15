@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+          xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          x:Class="MyApp.MainPage">
+
+    <StackLayout 
+        BackgroundColor="#F7F7F7"
+        Padding="20"
+        Spacing="20"
+        HorizontalOptions="Center"
+        VerticalOptions="Center">
+
+        <Label Text="Enter Contestant 1's Name:" 
+               FontSize="Large" 
+               TextColor="#333333" 
+               HorizontalOptions="Center" />
+
+        <Entry 
+            x:Name="Contestant1Entry"
+            Placeholder="Contestant 1 Name"
+            FontSize="Large"
+            BackgroundColor="#FFFFFF"
+            TextColor="#333333" 
+            PlaceholderColor="#BBBBBB" />
+
+        <Label 
+            Text="Enter Contestant 2's Name:"
+            FontSize="Large"
+            TextColor="#333333"
+            HorizontalOptions="Center" />
+
+        <Entry 
+            x:Name="Contestant2Entry"
+            Placeholder="Contestant 2 Name"
+            FontSize="Large"
+            BackgroundColor="#FFFFFF"
+            TextColor="#333333"
+            PlaceholderColor="#BBBBBB" />
+
+        <Button 
+            Text="Submit"
+            FontSize="Large"
+            BackgroundColor="#007AFF"
+            TextColor="#FFFFFF"
+            Clicked="OnSubmitClicked" />
+
+        <Label 
+            x:Name="ResultLabel"
+            TextColor="#007AFF"
+            FontSize="Large"
+            HorizontalOptions="CenterAndExpand" />
+
+    </StackLayout>
+</ContentPage>
+

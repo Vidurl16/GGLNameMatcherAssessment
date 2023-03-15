@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "GGLMatchesAssessment/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "NameMatcherUtilities": "1.0.0"
         },
         "runtime": {
           "GGLMatchesAssessment.dll": {}
@@ -734,6 +735,11 @@
           "System.Threading": "4.0.11",
           "System.Xml.ReaderWriter": "4.0.11"
         }
+      },
+      "NameMatcherUtilities/1.0.0": {
+        "runtime": {
+          "NameMatcherUtilities.dll": {}
+        }
       }
     }
   },
@@ -1253,6 +1259,11 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "NameMatcherUtilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
