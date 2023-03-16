@@ -11,13 +11,15 @@ public class Program
         ICSVHandler handler = new CSVHandler();
         NameMatcher nameMatcher = new NameMatcher();
 
-        string csvPath = PathConstants.csvPath;
-
-        List<(string name, char gender)> names = handler.ReadCSVFile(csvPath);
+        List<(string name, char gender)> names = handler.ReadCSVFile(PathConstants.csvPath);
 
         List<string> results = nameMatcher.MatchNames(names);
 
-        File.WriteAllLines("output.txt", results);
-    }
+        List<string> reversedResults = nameMatcher.MatchNamesReversed(names);
 
+        File.WriteAllText("output.txt", "\nRegular results: \n");
+        File.AppendAllLines("output.txt", results);
+        File.AppendAllText("output.txt", "\nReversed Results:\n");
+        File.AppendAllLines("output.txt", reversedResults);
+    }
 }
