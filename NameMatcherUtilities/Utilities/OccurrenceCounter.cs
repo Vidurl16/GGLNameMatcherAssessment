@@ -2,7 +2,7 @@
 
 namespace GGLMatchesAssessment.Utilities;
 
-class OccurrenceCounter : IOccurrenceCounter
+public class OccurrenceCounter : IOccurrenceCounter
 {
     private readonly string input;
 
@@ -24,7 +24,7 @@ class OccurrenceCounter : IOccurrenceCounter
                 if (inputIndex.Equals(uniqueChar))
                 {
                     count++;
-                }
+                } 
             }
 
             result += count.ToString();

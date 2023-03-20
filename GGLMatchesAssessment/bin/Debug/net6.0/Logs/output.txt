@@ -1,0 +1,34 @@
+
+Regular results: 
+Jason matches Kimberly: 20
+Jason matches Trini: 71
+Jason matches Billy: 71
+Billy matches Kimberly: 20
+Billy matches Trini: 71
+Billy matches Billy: 62
+Tommy matches Kimberly: 20
+Tommy matches Trini: 62
+Tommy matches Billy: 53
+Zack matches Kimberly: 91 good match
+Zack matches Trini: 70
+Zack matches Billy: 61
+@23` matches Kimberly: @23` matches Kimberly yielded: Invalid input
+@23` matches Trini: @23` matches Trini yielded: Invalid input
+@23` matches Billy: @23` matches Billy yielded: Invalid input
+
+Reversed Results:
+Kimberly matches Jason: 20
+Trini matches Jason: 53
+Billy matches Jason: 71
+Kimberly matches Billy: 20
+Trini matches Billy: 71
+Billy matches Billy: 62
+Kimberly matches Tommy: 20
+Trini matches Tommy: 71
+Billy matches Tommy: 71
+Kimberly matches Zack: 91 good match
+Trini matches Zack: 52
+Billy matches Zack: 61
+Kimberly matches @23`: Kimberly matches @23` yielded: Invalid input
+Trini matches @23`: Trini matches @23` yielded: Invalid input
+Billy matches @23`: Billy matches @23` yielded: Invalid input

@@ -26,27 +26,7 @@ function MatchName() {
           <label style={{ fontWeight: "bold", marginRight: "10px" }}>Name 2:</label>
           <input type="text" value={name2} onChange={(e) => setName2(e.target.value)} style={{ padding: "5px", borderRadius: "5px", border: "none", boxShadow: "0 0 5px rgba(0, 0, 0, 0.3)" }} />
         </div>
-    
-        <div style={{ margin: "10px 0" }}>
-          <FileDrop
-             onFrameDragEnter={(event) => console.log('onFrameDragEvent',event)}
-
-             onFrameDragLeave={(event) => console.log('onFrameDragEvent',event)}
-    
-             onFrameDrop={(event) => console.log('onFrameDropEvent', event)}
-    
-             onDragOver={(event) => console.log('onDragOverEvent', event)}
-    
-             onDragLeave={(event) => console.log('onDragLeaveEvent', event)}
-    
-             onDrop={(files, event) =>  console.log('onDropEvent', event)}
-          
-          ></FileDrop>
-          </div>
-
         <button type="submit" style={{ padding: "10px", borderRadius: "5px", border: "none", backgroundColor: "#3498db", color: "#fff", fontWeight: "bold", cursor: "pointer", transition: "background-color 0.3s ease" }}>Submit</button>
-    
-
       </form>
       <div className="result" style={{ marginTop: "20px", fontSize: "20px", fontWeight: "bold" }}>{result}</div>
     </div>

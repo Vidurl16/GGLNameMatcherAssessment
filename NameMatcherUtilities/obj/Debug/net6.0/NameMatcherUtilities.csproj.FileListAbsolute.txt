@@ -1,0 +1,12 @@
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\NameMatcherUtilities\bin\Debug\net6.0\NameMatcherUtilities.deps.json
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\NameMatcherUtilities\bin\Debug\net6.0\NameMatcherUtilities.dll
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\NameMatcherUtilities\bin\Debug\net6.0\NameMatcherUtilities.pdb
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\NameMatcherUtilities\obj\Debug\net6.0\NameMatcherUtilities.csproj.AssemblyReference.cache
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\NameMatcherUtilities\obj\Debug\net6.0\NameMatcherUtilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\NameMatcherUtilities\obj\Debug\net6.0\NameMatcherUtilities.AssemblyInfoInputs.cache
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\NameMatcherUtilities\obj\Debug\net6.0\NameMatcherUtilities.AssemblyInfo.cs
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\NameMatcherUtilities\obj\Debug\net6.0\NameMatcherUtilities.csproj.CoreCompileInputs.cache
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\NameMatcherUtilities\obj\Debug\net6.0\NameMatcherUtilities.dll
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\NameMatcherUtilities\obj\Debug\net6.0\refint\NameMatcherUtilities.dll
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\NameMatcherUtilities\obj\Debug\net6.0\NameMatcherUtilities.pdb
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\NameMatcherUtilities\obj\Debug\net6.0\ref\NameMatcherUtilities.dll

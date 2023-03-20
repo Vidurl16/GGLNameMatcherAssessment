@@ -1,0 +1,1 @@
+C:\Users\Vidur\source\repos\GGLMatchesAssessment\NameMatcherMAUI\NameMatcherMAUI.csproj;x64

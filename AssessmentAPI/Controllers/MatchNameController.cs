@@ -1,5 +1,7 @@
 using GGLMatchesAssessment.Utilities;
 using Microsoft.AspNetCore.Mvc;
+using NameMatcherUtilities.Interfaces;
+using NameMatcherUtilities.Utilities;
 
 namespace AssessmentAPI.Controllers;
 
@@ -13,7 +15,7 @@ public class MatchNameController : ControllerBase
     {
         string input = name1 + " matches " + name2;
 
-        NameMatcher _nameMatcher = new NameMatcher();
+        NameMatcher _nameMatcher = new NameMatcher(new NameGrouper());
 
         string result = _nameMatcher.MatchNames(input);
 

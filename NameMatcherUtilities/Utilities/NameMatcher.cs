@@ -1,14 +1,22 @@
 ﻿using GGLMatchesAssessment.Interfaces;
-using System.Diagnostics.SymbolStore;
+using NameMatcherUtilities.Interfaces;
+using NameMatcherUtilities.Utilities;
 
 namespace GGLMatchesAssessment.Utilities;
 
 public class NameMatcher : INameMatcher
 {
+    private IGrouper _grouper;
+
+    public NameMatcher(IGrouper grouper)
+    {
+        _grouper = grouper;
+    }
+
     public List<string> MatchNames(List<(string name, char gender)> names)
     {
-        var males = GetDistinctMaleNames(names);
-        var females = GetDistinctFemaleNames(names);
+        var males = _grouper.GetDistinctMaleNames(names);
+        var females = _grouper.GetDistinctFemaleNames(names);
 
         List<string> matches = new List<string>();
 
@@ -34,64 +42,6 @@ public class NameMatcher : INameMatcher
         return results;
     }
 
-    public List<string> MatchNamesReversed(List<(string name, char gender)> names)
-    {
-        var males = GetDistinctMaleNames(names);
-        var females = GetDistinctFemaleNames(names);
-
-        List<int> scores = new List<int>();
-        List<string> matches = new List<string>();
-
-        foreach (var male in males)
-        {
-            foreach (var female in females)
-            {
-                matches.Add($"{female.name} matches {male.name}");
-            }
-        }
-
-        List<string> results = new List<string>();
-
-        foreach (var match in matches)
-        {
-            MatchComputer matcher = new MatchComputer(match);
-
-            string output = matcher.Compute();
-
-            if (int.TryParse(output, out int score))
-            {
-                scores.Add(score);
-            }
-
-            results.Add($"{match}: {output}");
-
-            Console.WriteLine(match + ": " + output);
-        }
-
-        return results;
-    }
-
-    private List<(string name, char gender)> GetDistinctMaleNames(List<(string name, char gender)> names)
-    {
-        var males = names
-            .Where(n => n.gender == 'm')
-            .GroupBy(n => n.name)
-            .Select(g => g.First())
-            .ToList();
-
-        return males;
-    }
-
-    private List<(string name, char gender)> GetDistinctFemaleNames(List<(string name, char gender)> names)
-    {
-        var females = names
-            .Where(n => n.gender == 'f')
-            .GroupBy(n => n.name)
-            .Select(g => g.First())
-            .ToList();
-
-        return females;
-    }
 
     public string MatchNames(string names)
     {

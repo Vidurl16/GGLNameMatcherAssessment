@@ -2,7 +2,7 @@
 
 namespace GGLMatchesAssessment.Utilities;
 
-class Validator : IValidator
+public class Validator : IValidator
 {
     private readonly string input;
     public string CleanedInput { get;  set; }
